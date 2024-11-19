@@ -26,6 +26,8 @@ jobs:
       - name: Install required packages
         run: |
           pip install telebot pymongo aiohttp sutil
+          pip install pytz 
+          pip install psutil
       - name: Run daksh.py
         run: python3 daksh.py
 

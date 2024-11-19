@@ -25,7 +25,7 @@ jobs:
 
       - name: Install required packages
         run: |
-          pip install pyTelegramBotAPI pymongo aiohttp
+          pip install telebot pymongo aiohttp sutil
       - name: Run daksh.py
         run: python3 daksh.py
 
